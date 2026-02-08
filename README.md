@@ -32,11 +32,11 @@ This project simulates that basic decision-making process.
 ## Project Structure
 com.synapx.fnol
 │
-├── Claim.java // Represents FNOL claim data
-├── ClaimProcessor.java // Validates mandatory fields
-├── RoutingRules.java // Applies routing business rules
-├── RoutingResult.java // Holds final output
-└── Main.java // Application entry point
+├── Claim.java            // Represents FNOL claim data
+├── ClaimProcessor.java   // Validates mandatory fields
+├── RoutingRules.java     // Applies routing business rules
+├── RoutingResult.java    // Holds final output
+└── Main.java             // Application entry point
 
 
 ---
@@ -126,10 +126,4 @@ The final implementation, logic, and understanding are my own.
 Author
 Tejeshwini Ingalagi
 
-com.synapx.fnol
-│
-├── Claim.java            // Represents FNOL claim data
-├── ClaimProcessor.java   // Validates mandatory fields
-├── RoutingRules.java     // Applies routing business rules
-├── RoutingResult.java    // Holds final output
-└── Main.java             // Application entry point
+
