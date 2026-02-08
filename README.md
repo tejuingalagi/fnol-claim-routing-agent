@@ -94,6 +94,19 @@ This output clearly explains what decision was made and why.
 
 ---
 
+## Test Scenarios Covered
+The logic was tested using multiple scenarios:
+
+- Low damage claim (Fast-track)
+- Missing mandatory fields (Manual Review)
+- Fraud-related keywords in description (Investigation Flag)
+- Injury claim type (Specialist Queue)
+- High damage claim (Manual Review)
+
+For submission clarity, one clean example is shown in the code and other scenarios were tested by modifying the input data.
+
+---
+
 ## Assumptions
 - Attachments are assumed to be empty for this lite version
 - Estimated damage is treated as the initial estimate
