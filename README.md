@@ -39,6 +39,7 @@ com.synapx.fnol
 └── Main.java             // Application entry point
 
 
+
 ---
 
 ## Input
