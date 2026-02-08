@@ -82,17 +82,47 @@ The routing logic follows this priority order:
 
 ---
 
-## Output
-The application produces a structured JSON-style output:
 
-```json
-{
-  "extractedFields": {},
-  "missingFields": [],
-  "recommendedRoute": "",
-  "reasoning": ""
-}
-This output clearly explains what decision was made and why.
+## Test Scenarios Covered
+The logic was tested using multiple scenarios:
 
+- Low damage claim (Fast-track)
+- Missing mandatory fields (Manual Review)
+- Fraud-related keywords in description (Investigation Flag)
+- Injury claim type (Specialist Queue)
+- High damage claim (Manual Review)
+
+For submission clarity, one clean example is shown in the code and other scenarios were tested by modifying the input data.
+
+---
+
+## Assumptions
+- Attachments are assumed to be empty for this lite version
+- Estimated damage is treated as the initial estimate
+- PDF parsing is out of scope; FNOL data is simulated using Java objects
+
+---
+
+## How to Run
+1. Open the project in **Eclipse**
+2. Run `Main.java` as a **Java Application**
+3. View the JSON output in the console
+
+---
+
+## Demo Video (Optional)
+A short demo video explaining the project flow and logic:  
+`<PASTE VIDEO LINK HERE IF AVAILABLE>`
+
+---
+
+## Notes
+AI tools were used to help understand the problem statement and improve clarity of explanations.  
+The final implementation, logic, and understanding are my own.
+
+---
+
+## Author
+Tejeshwini Ingalagi
 
 
