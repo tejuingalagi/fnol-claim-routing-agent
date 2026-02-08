@@ -26,19 +26,25 @@ This project simulates that basic decision-making process.
 - **Type:** Backend logic only
 - **Frameworks:** None (Core Java)
 - **Database / UI:** Not used
-
+  
 ---
 
 ## Project Structure
-com.synapx.fnol
-│
-├── Claim.java            // Represents FNOL claim data
-├── ClaimProcessor.java   // Validates mandatory fields
-├── RoutingRules.java     // Applies routing business rules
-├── RoutingResult.java    // Holds final output
-└── Main.java             // Application entry point
 
+- **Claim.java**
+  Represents FNOL claim data
 
+- **ClaimProcessor.java**
+  Validates mandatory fields
+
+- **RoutingRules.java**  
+  Applies routing business rules
+
+- **RoutingResult.java**  
+  Holds final output
+
+- **Main.java**  
+  Application entry point
 
 ---
 
