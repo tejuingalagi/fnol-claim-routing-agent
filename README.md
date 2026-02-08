@@ -31,10 +31,10 @@ This project simulates that basic decision-making process.
 
 ## Project Structure
 
-- **Claim.java**
+- **Claim.java**  
   Represents FNOL claim data
 
-- **ClaimProcessor.java**
+- **ClaimProcessor.java**  
   Validates mandatory fields
 
 - **RoutingRules.java**  
@@ -45,6 +45,7 @@ This project simulates that basic decision-making process.
 
 - **Main.java**  
   Application entry point
+
 
 ---
 
