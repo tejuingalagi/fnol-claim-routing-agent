@@ -81,18 +81,16 @@ The routing logic follows this priority order:
    - If the estimated damage is less than 25,000
 
 ---
+## Output
+The application produces a structured JSON-style output:
 
+`{ "extractedFields": {}, 
+   "missingFields": [], 
+   "recommendedRoute": "", 
+   "reasoning": ""
+}`
 
-## Test Scenarios Covered
-The logic was tested using multiple scenarios:
-
-- Low damage claim (Fast-track)
-- Missing mandatory fields (Manual Review)
-- Fraud-related keywords in description (Investigation Flag)
-- Injury claim type (Specialist Queue)
-- High damage claim (Manual Review)
-
-For submission clarity, one clean example is shown in the code and other scenarios were tested by modifying the input data.
+This output clearly explains what decision was made and why.
 
 ---
 
@@ -124,5 +122,6 @@ The final implementation, logic, and understanding are my own.
 
 ## Author
 Tejeshwini Ingalagi
+
 
 
