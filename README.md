@@ -123,13 +123,7 @@ For submission clarity, one clean example is shown in the code and other scenari
 
 ## Demo Video (Optional)
 A short demo video explaining the project flow and logic:  
-`<PASTE VIDEO LINK HERE IF AVAILABLE>`
-
----
-
-## Notes
-AI tools were used to help understand the problem statement and improve clarity of explanations.  
-The final implementation, logic, and understanding are my own.
+https://drive.google.com/file/d/1zlecUo2IBmWsENy70mGxjxxmdKwEW9KZ/view
 
 ---
 
